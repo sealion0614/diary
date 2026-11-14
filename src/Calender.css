@@ -1,0 +1,30 @@
+.entry{
+    border:3px solid black;
+    background-color: oklch(97.275% 0.03798 174.166);
+}
+.entry h2{
+    background-color: oklch(83.451% 0.0528 196.286);
+}
+.content{
+    background-color: oklch(81.183% 0.05954 196.128);
+}
+.hide-create-new{
+    display: none;
+}
+.show-create-new{
+    position: fixed;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    width:40vw;
+    height:40vh;
+    padding:10px;
+    top:50vh;
+    left:50vw;
+    transform:translate(-50%,-50%);
+    background-color: oklch(0.8725 0.071 297.11);
+    border:3px solid oklch(0.4289 0.071 297.11);
+}
+textarea{
+    flex-grow: 1;
+}
